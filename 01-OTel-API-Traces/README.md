@@ -29,7 +29,9 @@ trace.get_tracer_provider().add_span_processor(span_processor)
 
 ### Run `python 00-02.py` that has Span processors and exporters which are part of the SDK:
 
-Notice the spans
+Note the new spans:
+
+
 `
 python .\00-02.py
 Calling slow API...
@@ -88,6 +90,8 @@ Done! Response length: 358
         "schema_url": ""
     }
 }
+
+
 `
 
 
